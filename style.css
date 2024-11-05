@@ -1,0 +1,106 @@
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px; /* Vergeet de eenheid (px) niet toe te voegen */
+    color: black; /* Zorg dat de tekstkleur zichtbaar is */
+}
+
+h3 {
+    font-weight: normal;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    font-size: small; 
+    color: black; /* Zorg dat de tekstkleur zichtbaar is */
+}
+
+body {
+    background-image: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Verplaats naar de body sectie */
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #2ba710; /* Dit kan overbodig zijn door de achtergrondafbeelding */
+}
+
+.box {
+    width: 300px;
+    background-color: rgb(46, 153, 17);
+    border-style: solid;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.topnav {
+    background-color: #155c05;
+    overflow: hidden;
+    border: solid; /* Je kan ook border: none; gebruiken als je geen rand wilt */
+    border-radius: 5px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    transition: background-color 0.3s; /* Voor een vloeiende overgang */
+}
+
+.topnav a:hover {
+    background-color: rgb(92, 226, 55); /* Nieuwe achtergrondkleur bij hover */
+    color: rgb(0, 0, 0); /* Textkleur tijdens hover */
+}
+.topnav a.active {
+    background-color: rgb(76, 226, 35)
+    color rgb(46, 153, 17);
+}
+.techniekcollegerotterdam {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 95rem;
+    position: sticky;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 5px;
+}
+
+.page {
+    background-color: rgb(46, 153, 17);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-style: solid;
+}
+.canvaslogo {
+    height: 250px;
+    width: 300px;
+    margin-right: 95rem;
+    margin-top:-265px;
+    position: static;
+    float: left;
+    right: 50px;
+    bottom: 200px;
+    left: 42px;
+    border-radius: 5px;
+}
+.box2 {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(46, 153, 17);
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
